@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- must include xmlns:itunes tag -->
+<rss xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>5150 Emerging Technology for Instruction</title>
+		<itunes:author>Sara Bradford</itunes:author>
+		<link>http://www.uakron.edu/colleges/educ/Foundations/index.php</link>
+		<description></description>
+		<itunes:subtitle>5150 ETI at the University of Akron, OH</itunes:subtitle>
+		<itunes:summary>5150 ETI at the University of Akron, OH</itunes:summary>
+		<language>en-us</language>
+<!-- 		<copyright>Acme News Corp. 2005</copyright> -->
+		<itunes:owner>
+			<itunes:name> Sara Bradford </itunes:name>
+			<itunes:email>sarabradford7@gmail.com</itunes:email>
+		</itunes:owner>
+<!-- 		<image> -->
+<!-- 			<url>http://www.itunes.com/podcasts/everything/AllAboutEverything.jpg</url> -->
+<!-- 			<title>All About Everything</title> -->
+<!-- 			<link>http://www.-.com/podcasts/everything/index.html</link> -->
+<!-- 		</image> -->
+		<!-- the max size for rss image is 144x400 -->
+		<!-- iTunes allows images larger than that -->
+<!-- 		<itunes:link rel="image" type="video/jpeg" href="http://www.itunes.com/podcasts/everything/AllAboutEverything.jpg">All About Everything</itunes:link> -->
+		<itunes:category text="Technology">
+			<itunes:category text="Developers"/>
+		</itunes:category>
+
+
+		<item>
+			<title>5150 Emerging Technology for Instruction: Module 4 Mobile Learning: Pocasting Project, Summer 2014</title>
+			<itunes:author>Sara Bradford</itunes:author>
+			<description>Kahoot Podcast</description>
+			<itunes:subtitle>5150 Emerging Tech</itunes:subtitle>
+			<itunes:summary>Kahoot Podcast</itunes:summary>
+			<enclosure url="https://raw.githubusercontent.com/sbradford7/et8/master/audio.mp3" length="22475780" type="x-audio/mp3" />
+			<guid> https://raw.githubusercontent.com/sbradford7/et8/master/audio.mp3</guid>
+			<!--This is the View raw URL of my audio file. You need to click on the audio you already uploaded to GitHub and click on the View Raw option on the page to open your audio in the browser. Then, copy the URL appear in the URL box of the browser and use it here.-->
+			
+			<pubDate>Monday, 13 April. 2020 16:30:59 CDT</pubDate>
+			<category>Technology</category>
+			<itunes:category text="Technology">
+				<itunes:category text="Developers"/>
+			</itunes:category>
+			<itunes:explicit>no</itunes:explicit>
+			<itunes:duration>0:02</itunes:duration>
+			<itunes:keywords>5150 ETI at the University of Akron, OH</itunes:keywords>
+		</item>
+
+<item>This is where you can put your set of <item></item> code for your second podcast if you have it.
+</item>	
+	</channel>
+</rss>
